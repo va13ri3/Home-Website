@@ -1,0 +1,92 @@
+/* Border styles for grid */
+div[class^="col"]{
+    min-height: 50px;
+    border: 1px solid black;
+}
+
+.row{
+    border: 1px dashed red;
+} 
+
+.col-1 a {
+    position: absolute;
+    font-size: 18px;
+    color: #490c0c;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    top: 15px;
+}
+
+.col-1 a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 0;
+    height: 2px;
+    background: #490c0c;
+    transition: .3s;
+}
+
+.home a:hover::before {
+    width: 55px;
+}
+
+.products a:hover::before {
+    width: 70px;
+}
+
+.contact a:hover::before {
+    width: 65px;
+}
+
+.resources a:hover::before {
+    width: 80px;
+}
+
+.sign button {
+    position: relative;
+    font-size: 18px;
+    color: #490c0c;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    top: 5px;
+}
+
+.log button {
+    position: relative;
+    font-size: 18px;
+    color: #490c0c;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10px;
+    top: 5px;
+}
+
+/* Icon sizes */
+i[class*=" fi-brands-"]:before {
+    font-size: 2rem;
+    line-height: 1.6;
+}
+
+i[class*=" fi-rr-"]:before {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+i[class*=" fi-ss-"]:before {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+/* .drawer img {
+    width: 10px;
+}
+
+.endtable img {
+    width: 10px;
+} */
+
+
