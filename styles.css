@@ -8,7 +8,7 @@ div[class^="col"]{
     border: 1px dashed red;
 } 
 
-.col-1 a {
+.col-2 a {
     position: absolute;
     font-size: 18px;
     color: #490c0c;
@@ -18,7 +18,7 @@ div[class^="col"]{
     top: 15px;
 }
 
-.col-1 a::before {
+.col-2 a::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -79,7 +79,89 @@ i[class*=" fi-rr-"]:before {
 i[class*=" fi-ss-"]:before {
     font-size: 2.5rem;
     line-height: 1;
+    top: 100px;
+    right: 22px;
 }
+
+.pink {
+    width: 45px;
+    height: auto;
+}
+
+.burger {
+    position: absolute;
+    right: 29px;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+}
+
+.cir {
+    position: absolute;
+    top: 6px;
+    right: 22px;
+}
+
+@media screen and (max-width:754px) {  
+    .dis {
+      display: none;
+    }
+    .col-2 a {
+        position: absolute;
+        font-size: 18px;
+        color: #490c0c;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 0px;
+        top: 15px;
+    }
+    .home a {
+        margin-left: 1px;
+    }
+    .products a {
+        margin-left: -8px;
+    }
+    .contact a {
+        margin-left: -5px;
+    }
+  }
+
+  @media screen and (min-width:754px) {  
+    .burger {
+      display: none;
+    }
+    .cir {
+        display: none;
+      }
+  }
+  .twitter {
+    position: absolute;
+    right: 123px;
+}
+
+.instagram {
+    position: absolute;
+    right: 83px;
+}
+
+.youtube {
+    position: absolute;
+    right: 45px;
+}
+
+.tiktok {
+    position: absolute;
+    right: 5px;
+}
+
+.drawer img{
+    width: 1000px;
+    height: auto;
+}
+.endtable img{
+    width: 485px;
+    height: auto;
+}
+
 
 /* .drawer img {
     width: 10px;
