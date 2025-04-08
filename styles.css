@@ -1,3 +1,9 @@
+div {
+    background-color: #EEF1EF;
+}
+a { 
+    -webkit-text-fill-color: #7D98A1;
+}
 /* Border styles for grid */
 div[class^="col"]{
     min-height: 50px;
@@ -11,7 +17,7 @@ div[class^="col"]{
 .col-2 a {
     position: absolute;
     font-size: 18px;
-    color: #490c0c;
+    color: #7D98A1;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -25,30 +31,34 @@ div[class^="col"]{
     left: 0px;
     width: 0;
     height: 2px;
-    background: #490c0c;
+    background: #7D98A1;
     transition: .3s;
 }
 
 .home a:hover::before {
     width: 55px;
+    color: #7D98A1;
 }
 
 .products a:hover::before {
     width: 70px;
+    color: #7D98A1;
 }
 
 .contact a:hover::before {
     width: 65px;
+    color: #7D98A1;
 }
 
 .resources a:hover::before {
     width: 80px;
+    color: #7D98A1;
 }
 
 .sign button {
     position: relative;
     font-size: 18px;
-    color: #490c0c;
+    color: #577399;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -58,7 +68,7 @@ div[class^="col"]{
 .log button {
     position: relative;
     font-size: 18px;
-    color: #490c0c;
+    color: #6F8AAD;
     font-weight: 500;
     text-decoration: none;
     margin-left: 10px;
@@ -123,13 +133,35 @@ i[class*=" fi-ss-"]:before {
     .contact a {
         margin-left: -5px;
     }
-  }
+.twitter {
+  position: absolute;
+  right: 123px;
+}
+
+.instagram {
+  position: absolute;
+  right: 83px;
+}
+
+.youtube {
+  position: absolute;
+  right: 45px;
+}
+
+.tiktok {
+  position: absolute;
+  right: 5px;
+}
+}
 
   @media screen and (min-width:754px) {  
     .burger {
       display: none;
     }
     .cir {
+        display: none;
+      }
+      .gone {
         display: none;
       }
   }
@@ -161,14 +193,29 @@ i[class*=" fi-ss-"]:before {
     width: 485px;
     height: auto;
 }
-
-
-/* .drawer img {
-    width: 10px;
+.light img{
+    width: 485px;
+    height: auto;
 }
-
-.endtable img {
-    width: 10px;
-} */
+.fancy img{
+    width: 485px;
+    height: auto;
+}
+.kitty img{
+    width: 485px;
+    height: auto;
+}
+.pinkd img{
+    width: 485px;
+    height: auto;
+}
+.zebra img{
+    width: 485px;
+    height: auto;
+}
+.triangle img{
+    width: 485px;
+    height: 450px;
+}
 
 
