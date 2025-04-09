@@ -3,6 +3,20 @@ div {
 }
 a { 
     -webkit-text-fill-color: #7D98A1;
+    font-family:'Lucida Handwriting';
+}
+h1 {
+    -webkit-text-fill-color: #6F8AAD;
+    font-family:'Lucida Handwriting';
+}
+h3 {
+    -webkit-text-fill-color: #577399;
+    font-family: 'Allura';
+    
+}
+h5 {
+    -webkit-text-fill-color: #34455B;
+    font-family:'Lucida Handwriting';font-size: 100px;
 }
 /* Border styles for grid */
 div[class^="col"]{
@@ -58,7 +72,8 @@ div[class^="col"]{
 .sign button {
     position: relative;
     font-size: 18px;
-    color: #577399;
+    color: #34455B;
+    background-color: #7D98A1;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -68,11 +83,19 @@ div[class^="col"]{
 .log button {
     position: relative;
     font-size: 18px;
-    color: #6F8AAD;
+    color: #34455B;
+    background-color: #7D98A1;
     font-weight: 500;
     text-decoration: none;
     margin-left: 10px;
     top: 5px;
+}
+.flor{    
+    background-image:url(img/blue-callington-flowers-dfch.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
 /* Icon sizes */
@@ -102,13 +125,14 @@ i[class*=" fi-ss-"]:before {
     position: absolute;
     right: 29px;
     z-index: 10;
-    color: rgb(255, 255, 255);
+    color:#34455B;
 }
 
 .cir {
     position: absolute;
     top: 6px;
     right: 22px;
+    color:#7D98A1;
 }
 
 @media screen and (max-width:754px) {  
@@ -118,7 +142,7 @@ i[class*=" fi-ss-"]:before {
     .col-2 a {
         position: absolute;
         font-size: 18px;
-        color: #490c0c;
+        color: #e76b6b;
         font-weight: 500;
         text-decoration: none;
         margin-left: 0px;
@@ -136,21 +160,25 @@ i[class*=" fi-ss-"]:before {
 .twitter {
   position: absolute;
   right: 123px;
+  color: #D5B0AC;
 }
 
 .instagram {
   position: absolute;
   right: 83px;
+  color: #D5B0AC;
 }
 
 .youtube {
   position: absolute;
   right: 45px;
+  color: #D5B0AC;
 }
 
 .tiktok {
   position: absolute;
   right: 5px;
+  color: #D5B0AC;
 }
 }
 
@@ -168,21 +196,25 @@ i[class*=" fi-ss-"]:before {
   .twitter {
     position: absolute;
     right: 123px;
+    color: #D5B0AC;
 }
 
 .instagram {
     position: absolute;
     right: 83px;
+    color: #D5B0AC;
 }
 
 .youtube {
     position: absolute;
     right: 45px;
+    color: #D5B0AC;
 }
 
 .tiktok {
     position: absolute;
     right: 5px;
+    color: #D5B0AC;
 }
 
 .drawer img{
